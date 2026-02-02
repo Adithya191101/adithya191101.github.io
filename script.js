@@ -751,14 +751,14 @@ function initParticleCanvas() {
 
 // Hover effects
 function initHoverEffects() {
-    // Button hover effects
+    // Button hover effects - subtle
     const buttons = document.querySelectorAll('.btn-primary');
     buttons.forEach(btn => {
         btn.addEventListener('mousemove', (e) => {
             const rect = btn.getBoundingClientRect();
             const x = e.clientX - rect.left - rect.width / 2;
             const y = e.clientY - rect.top - rect.height / 2;
-            btn.style.transform = `translate(${x * 0.1}px, ${y * 0.1}px) translateY(-2px)`;
+            btn.style.transform = `translate(${x * 0.05}px, ${y * 0.05}px) translateY(-1px)`;
         });
 
         btn.addEventListener('mouseleave', () => {
@@ -766,7 +766,7 @@ function initHoverEffects() {
         });
     });
 
-    // Card tilt effect
+    // Card tilt effect - subtle
     const cards = document.querySelectorAll('.skill-card, .project-card');
     cards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
@@ -775,10 +775,10 @@ function initHoverEffects() {
             const y = e.clientY - rect.top;
             const centerX = rect.width / 2;
             const centerY = rect.height / 2;
-            const rotateX = (y - centerY) / 20;
-            const rotateY = (centerX - x) / 20;
+            const rotateX = (y - centerY) / 40;
+            const rotateY = (centerX - x) / 40;
 
-            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-2px)`;
         });
 
         card.addEventListener('mouseleave', () => {

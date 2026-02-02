@@ -104,7 +104,7 @@
 }
 
 .video-card {
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -113,7 +113,6 @@
 }
 
 .video-card:hover {
-    box-shadow: var(--shadow-card-hover);
     border-color: var(--border-hover);
 }
 
@@ -232,7 +231,7 @@ button.btn-github {
 .feature-highlight {
     background: var(--bg-secondary);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -269,7 +268,7 @@ button.btn-github {
 .model-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-card);
@@ -277,7 +276,6 @@ button.btn-github {
 
 .model-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .model-card .model-header {
@@ -360,7 +358,7 @@ button.btn-github {
 .debugging-section {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -412,7 +410,7 @@ button.btn-github {
 .result-stat {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.25rem;
     text-align: center;
     transition: all var(--transition-normal);
@@ -420,7 +418,6 @@ button.btn-github {
 
 .result-stat:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card);
 }
 
 .result-stat .value {
@@ -451,7 +448,7 @@ button.btn-github {
 .hardware-item {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.25rem;
     text-align: center;
     transition: all var(--transition-normal);
@@ -459,7 +456,6 @@ button.btn-github {
 
 .hardware-item:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card);
 }
 
 .hardware-item i {
@@ -484,7 +480,7 @@ button.btn-github {
 .architecture-flow {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     margin-top: 1.5rem;
     font-family: var(--font-mono);
@@ -511,7 +507,7 @@ button.btn-github {
 }
 
 .gallery-item {
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -520,7 +516,6 @@ button.btn-github {
 }
 
 .gallery-item:hover {
-    box-shadow: var(--shadow-card-hover);
     border-color: var(--border-hover);
 }
 
@@ -572,7 +567,7 @@ button.btn-github {
     border-collapse: collapse;
     margin-top: 1.5rem;
     background: var(--bg-card);
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--shadow-card);
 }
@@ -666,7 +661,7 @@ button.btn-github {
 .methodology-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-card);
@@ -674,7 +669,6 @@ button.btn-github {
 
 .methodology-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .methodology-card h4 {
@@ -724,7 +718,7 @@ button.btn-github {
 .algorithm-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-card);
@@ -732,7 +726,6 @@ button.btn-github {
 
 .algorithm-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .algorithm-card h4 {
@@ -792,7 +785,7 @@ button.btn-github {
 .sensor-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     text-align: center;
     transition: all var(--transition-normal);
@@ -801,7 +794,6 @@ button.btn-github {
 
 .sensor-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .sensor-card i {
@@ -826,7 +818,7 @@ button.btn-github {
 .sensor-section {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -855,7 +847,7 @@ button.btn-github {
 .scenario-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-card);
@@ -863,7 +855,6 @@ button.btn-github {
 
 .scenario-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .scenario-card h3 {
@@ -899,7 +890,7 @@ button.btn-github {
 .pipeline-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     transition: all var(--transition-normal);
     position: relative;
@@ -912,15 +903,14 @@ button.btn-github {
     position: absolute;
     top: 0;
     left: 0;
-    width: 4px;
+    width: 3px;
     height: 100%;
     background: var(--gradient-tech);
 }
 
 .pipeline-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 .pipeline-card .card-number {
@@ -972,7 +962,7 @@ button.btn-github {
 .pipeline-box {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     margin-top: 1.5rem;
     font-family: var(--font-mono);
@@ -999,7 +989,7 @@ button.btn-github {
 .system-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-card);
@@ -1007,7 +997,6 @@ button.btn-github {
 
 .system-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .system-card h3 {
@@ -1060,7 +1049,7 @@ button.btn-github {
 .team-member {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.25rem;
     text-align: center;
     transition: all var(--transition-normal);
@@ -1069,7 +1058,6 @@ button.btn-github {
 
 .team-member:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .team-member i {
@@ -1105,14 +1093,13 @@ button.btn-github {
     padding: 1.5rem 1rem;
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-card);
 }
 
 .autonomy-level:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .autonomy-level.target {
@@ -1183,7 +1170,7 @@ button.btn-github {
 .concept-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     text-align: center;
     transition: all var(--transition-normal);
@@ -1192,7 +1179,6 @@ button.btn-github {
 
 .concept-card:hover {
     border-color: var(--border-hover);
-    box-shadow: var(--shadow-card-hover);
 }
 
 .concept-card i {
@@ -1225,7 +1211,7 @@ button.btn-github {
 .calibration-card {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1.5rem;
     box-shadow: var(--shadow-card);
 }
@@ -1270,7 +1256,7 @@ button.btn-github {
 }
 
 .project-image-card {
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -1279,8 +1265,7 @@ button.btn-github {
 }
 
 .project-image-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-2px);
     border-color: var(--border-hover);
 }
 
@@ -1303,7 +1288,7 @@ button.btn-github {
 
 /* GIF Card */
 .gif-card {
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -1312,8 +1297,8 @@ button.btn-github {
 }
 
 .gif-card:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-2px);
+    border-color: var(--border-hover);
 }
 
 .gif-card img {
@@ -1343,7 +1328,7 @@ button.btn-github {
 }
 
 .map-card {
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -1353,8 +1338,7 @@ button.btn-github {
 }
 
 .map-card:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-2px);
     border-color: var(--border-hover);
 }
 
@@ -1393,8 +1377,7 @@ button.btn-github {
 }
 
 .histogram-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-1px);
     border-color: var(--border-hover);
 }
 
