@@ -2002,6 +2002,21 @@ strong {
     height: auto;
 }
 
+/* Local video modal (LIO-SAM, Dead Reckoning) */
+.local-video-modal-content {
+    max-width: 900px;
+    height: auto;
+    align-items: center;
+}
+
+.local-video-modal-content video {
+    width: 100%;
+    max-height: calc(85vh - 100px);
+    border-radius: 8px;
+    object-fit: contain;
+    background: #000;
+}
+
 .video-preview-wrapper {
     position: relative;
     width: 100%;
